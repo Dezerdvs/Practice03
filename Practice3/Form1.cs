@@ -25,7 +25,7 @@ namespace Practice3
             SecondNumber = Convert.ToInt32(textBox2.Text);
             ThirdNumber = Convert.ToInt32(textBox3.Text);
 
-            var nubmerCalc = new NumberCalculations();
+            var nubmerCalc = new NumberCalculations(FirstNumber, SecondNumber, ThirdNumber);
 
             label4.Text = nubmerCalc.PerformCalculation().ToString();
 
@@ -60,6 +60,11 @@ namespace Practice3
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

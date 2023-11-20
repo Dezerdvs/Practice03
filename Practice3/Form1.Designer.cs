@@ -125,6 +125,7 @@
             this.label4.Size = new System.Drawing.Size(165, 24);
             this.label4.TabIndex = 39;
             this.label4.Text = "Перше завдання:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label6
             // 
